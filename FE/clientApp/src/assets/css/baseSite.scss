@@ -1,0 +1,318 @@
+body {
+  background-color: #0e0e0e !important;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-grey {
+  background: #aaaaaa !important;
+}
+
+.bg-info {
+  background: #00acc1 !important;
+}
+
+.bg-rose {
+  background: #ff6000 !important;
+}
+
+.bg-success {
+  background: #43a047 !important;
+}
+
+.bg-warning {
+  background: #fb8c00 !important;
+}
+
+.bg-Black {
+  background-color: #000000 !important;
+}
+
+.bg-Blue {
+  background-color: #2e4ff8;
+}
+
+.bgGreen {
+  background-color: #498708;
+}
+
+.bglight {
+  background: #f7f7f7 !important;
+}
+
+.bgOrange {
+  background-color: #f19600;
+}
+
+.bgRed {
+  background-color: #fa0708;
+}
+
+.bgpink {
+  background: #ff6000 !important;
+}
+
+.bgYellow {
+  background-color: #eda900;
+}
+
+.bgwhite {
+  background: #ffffff !important;
+}
+
+.btn-disabled {
+  background: #aaa !important;
+}
+
+.card {
+  margin-top: 20px !important;
+}
+
+.clearfix {
+  clear: both !important;
+}
+
+.colorpink {
+  color: #ff6000 !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.cursor-text {
+  cursor: text !important;
+}
+
+.imgopacity2 {
+  opacity: 0.2;
+}
+
+.imgopacity3 {
+  opacity: 0.3;
+}
+
+.line-height-normal {
+  line-height: normal !important;
+}
+
+.line-height-1-2 {
+  line-height: 1.2 !important;
+}
+
+.nobgclr {
+  background-color: transparent;
+  background: transparent;
+}
+
+.nomargin {
+  margin: 0 !important;
+}
+
+.nopadding {
+  padding: 0 !important;
+}
+
+.norotate {
+  -webkit-transform: rotate(0deg) !important;
+  transform: rotate(-180deg);
+}
+
+.radius0 {
+  border-radius: 0 !important;
+}
+
+.radius5 {
+  border-radius: 5px !important;
+}
+
+.radius15 {
+  border-radius: 15px !important;
+}
+
+.radius50per {
+  border-radius: 50% !important;
+}
+
+.svgDisabled {
+  width: 16px !important;
+  height: 16px !important;
+  color: #dedcdd !important;
+}
+
+.svgclass10 {
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.svgclass11 {
+  width: 11px !important;
+  height: 11px !important;
+}
+
+.svgclass12 {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.svgclass13 {
+  width: 13px !important;
+  height: 13px !important;
+}
+
+.svgclass14 {
+  width: 14px !important;
+  height: 14px !important;
+}
+
+.svgclass15 {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.svgclass16 {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.svgclass17 {
+  width: 17px !important;
+  height: 17px !important;
+}
+
+.svgclass18 {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+.svgclass19 {
+  width: 19px !important;
+  height: 19px !important;
+}
+
+.svgclass20 {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.svgclass21 {
+  width: 21px !important;
+  height: 21px !important;
+}
+
+.svgclass22 {
+  width: 22px !important;
+  height: 22px !important;
+}
+
+.svgclass23 {
+  width: 23px !important;
+  height: 23px !important;
+}
+
+.svgclass24 {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.svgclass25 {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.svgclass26 {
+  width: 26px !important;
+  height: 26px !important;
+}
+
+.svgclass27 {
+  width: 27px !important;
+  height: 27px !important;
+}
+
+.svgclass28 {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.svgclass29 {
+  width: 29px !important;
+  height: 29px !important;
+}
+
+.svgclass30 {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.svgclass30:hover {
+  color: #ff6000 !important;
+}
+
+.text-black {
+  color: #000000 !important;
+}
+
+.text-danger {
+  color: #ff0000 !important;
+}
+
+.text-darkgrey {
+  color: #777777 !important;
+}
+
+.text-grey {
+  color: #484848 !important;
+}
+
+.text-rose {
+  color: #ff6000 !important;
+}
+
+.text-yellow {
+  color: rgb(255, 187, 47) !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.text-sentence {
+  text-transform: lowercase;
+
+  &:first-letter {
+    text-transform: uppercase !important;
+  }
+
+  &:nth-letter(1) {
+    text-transform: uppercase !important;
+  }
+}
+
+.hw24 {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.hw32{
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.noshadow {
+  box-shadow: none !important;
+}
+
+.noborder {
+  border-radius: 0px !important;
+}
+
+.preline{
+  white-space: pre-line !important;
+}

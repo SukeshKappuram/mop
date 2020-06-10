@@ -1,0 +1,304 @@
+/*---Mat Select Dropdown Custom Styling---\\*/
+.CustomMatSelectDropDown {
+  background: transparent;
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  outline: none;
+  &.mat-select-panel{
+    max-height: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    .mat-optgroup-label{
+      padding: 0 10px;
+      line-height: normal !important;
+      height: auto !important;
+      margin-top: 5px;
+      margin: 5px 0 5px;
+      font-weight: bold;
+    }
+  }
+
+}
+.CustomMatSelectDropDown_Scroll {
+  max-height: 256px;
+
+  .mat-option {
+    width: calc(100% - 10px);
+    color: #484848 !important;
+    margin: 0;
+    padding-left: 38px;
+    font-size: 14px !important;
+    font-weight: 400;
+    &:hover, &:active, &:focus:hover {
+      background-color: transparent !important;
+      box-shadow: none !important;
+      color: #484848 !important;
+    }
+    &.mat-selected:not(.mat-option-multiple) {
+      background-color: transparent !important;
+      font-weight: 400;
+      box-shadow: none;
+      color: #484848 !important;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      width: 20px;
+      border-radius: 100%;
+      left: 10px;
+      height: 20px;
+      border: 2px solid rgba(0, 0, 0, 0.31);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      width: 20px;
+      border-radius: 100%;
+      left: 10px;
+      height: 20px;
+      border: 2px solid rgba(0, 0, 0, 0.31);
+      border: 0px;
+    }
+    &.mat-selected {
+      &::after {
+        transform: scale(0.5);
+        background-color: #4caf50;
+      }
+      &::before {
+        border-color: #4caf50;
+      }
+    }
+  }
+}
+.CustomMatSelectDropDownNormal_Scroll {
+  max-height: 256px;
+
+  .mat-option {
+    width: calc(100% - 10px);
+    color: #484848 !important;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 14px !important;
+    font-weight: 400;
+    &:hover, &:active, &:focus:hover {
+      background-color: #ff6000 !important;
+      box-shadow: none !important;
+      color: #fff !important;
+    }
+    &.mat-selected:not(.mat-option-multiple) {
+      background-color: #ff6000 !important;
+      font-weight: 400;
+      box-shadow: none;
+      color: #fff !important;
+    }
+    &.mat-selected {
+      &::after {
+        transform: scale(0.5);
+        background-color: #4caf50;
+      }
+      &::before {
+        border-color: #4caf50;
+      }
+    }
+  }
+}
+          /*---Mat Select Black Theme Dropdown--*/
+          .MatSelect_BlackGradientBGWrap{
+            mat-form-field.customInputs{
+                  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4f4f4f+0,000000+100 */
+              background: #4f4f4f; /* Old browsers */
+              background: -moz-linear-gradient(top,  #4f4f4f 0%, #000000 100%); /* FF3.6-15 */
+              background: -webkit-linear-gradient(top,  #4f4f4f 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+              background: linear-gradient(to bottom,  #4f4f4f 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4f4f', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+              border-radius: 5px;
+              padding: 0 10px;
+              .mat-input-wrapper{
+                padding-bottom: 15px;
+              }
+
+              .mat-form-field-underline{
+                display: none;
+              }
+              .mat-form-field-label{
+                padding-top: unset;
+                color: #fff !important;
+              }
+              mat-select{
+                .mat-select-value{
+                  color: #fff !important;
+                }
+                .mat-select-arrow{
+                  color: rgba(255, 255, 255, 0.54);
+                }
+              }
+              &.mat-focused.mat-primary{
+                .mat-select-arrow{
+                  color: rgba(255, 255, 255, 0.54);
+                }
+              }
+            }
+          }
+          .CustomMatSelectDropDown{
+            &.MatSelectblacktheme{
+              padding-top: 0px;
+              padding-bottom: 0px;
+              border-radius: 10px;
+              .CustomMatSelectDropDown_Scroll{
+                background-color: #000;
+                .mat-option{
+                  .mat-option-text{
+                    color: #fff;
+                  }
+                  &::before{
+                    border: 2px solid rgba(255, 255, 255, 0.31);
+                  }
+                  &::after{
+                    border: 2px solid rgba(255, 255, 255, 0.31);
+                  }
+                  &.mat-selected {
+                    &::after {
+                      transform: scale(0.5);
+                      background-color: #4caf50;
+                      border-color:#4caf50;
+                    }
+                    &::before {
+                      border-color: #4caf50;
+                      border-color:#4caf50;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          /*---Mat Select Black Theme Dropdown--*/
+.mat-autocomplete-panel .CustomMatSelectDropDown_Scroll .mat-option:hover,
+.mat-autocomplete-panel .CustomMatSelectDropDown_Scroll .mat-option:active,
+.mat-autocomplete-panel .CustomMatSelectDropDown_Scroll .mat-option:focus,
+.mat-autocomplete-panel .CustomMatSelectDropDown_Scroll .mat-option:focus:hover
+{
+  background-color: transparent !important;
+}
+/*---Mat Select Dropdown Custom Styling---//*/
+/*---Mat Multi Select Dropdown Custom Styling---\\*/
+.CustomMatMultiSelectDropDown {
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  &.mat-select-panel{
+    max-height: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .perfectScroll_custom {
+    max-height: 256px;
+    .mat-pseudo-checkbox {
+      background-color: #e0e0e0;
+      background-color: transparent;
+      border-radius: 100%;
+      border: 2px solid rgba(0, 0, 0, 0.31) !important;
+      width: 20px;
+      height: 20px;
+      &.mat-pseudo-checkbox-checked {
+        background-color: #4caf50;
+        border-color: #3a903e !important;
+      }
+      &::after {
+        border-bottom: 2.2px solid currentColor;
+      }
+    }
+    .mat-pseudo-checkbox-checked::after {
+      color: #fff;
+      top: 4px;
+      left: 2px;
+      width: 11px;
+      height: 5px;
+      border-left: 2.2px solid currentColor;
+    }
+    .mat-option {
+      width: calc(100% - 10px);
+      padding: 0 10px;
+      font-weight: 400;
+      &.mat-selected:hover, &:hover, &:focus:hover {
+        background-color: transparent !important;
+        color: rgba(0, 0, 0, 0.87) !important;
+        box-shadow: none;
+      }
+      &.mat-active {
+        background-color: transparent !important;
+      }
+      &.mat-selected .mat-option-pseudo-checkbox:after {
+        color: #fff;
+      }
+    }
+    .mat-option.mat-selected:hover{
+      background-color: transparent !important;
+    }
+  }
+  /*.perfectScroll_custom {
+    max-height: 256px;
+  }*/
+}
+        /*---Mat MultiSelect Black Theme Dropdown--*/
+          .CustomMatMultiSelectDropDown{
+            &.MatSelectblacktheme{
+              padding-top: 0px;
+              padding-bottom: 0px;
+              border-radius: 10px;
+              .perfectScroll_custom{
+                background-color: #000;
+                .mat-option{
+                  .mat-pseudo-checkbox{
+                    border: 2px solid rgba(255, 255, 255, 0.31) !important;
+                  }
+                  .mat-pseudo-checkbox-checked::after {
+                    color: #fff;
+                    top: 3px;
+                    left: 2px;
+                    width: 9px;
+                    height: 5px;
+                    border-left: 2.2px solid currentColor;
+                  }
+                  .mat-option-text{
+                    color: #fff;
+                  }
+                }
+                .mat-optgroup{
+                  .mat-optgroup-label{
+                    color: #fff;
+                    padding: 0 12px;
+                    margin:0;
+                  }
+                }
+              }
+            }
+          }
+        /*---Mat MultiSelect Black Theme Dropdown--*/
+/*---Mat Multi Select Dropdown Custom Styling---//*/
+.CustomMatSelectDropDown {
+  .mat-select-content .mat-option.mat-active {
+    background-color: #ff6000 !important;
+    background-color: transparent !important;
+  }
+  /*.perfectScroll_custom {
+    max-height: 160px;
+  }*/
+}
+/*---Mat Select Dropdown Custom Styling--//*/
+.mat-autocomplete-panel .perfectScroll_custom
+{
+  max-height: 160px;
+}
+.mat-autocomplete-panel .mat-option
+{
+  height: 32px;
+}
+.mat-autocomplete-panel .mat-option:focus,
+.mat-autocomplete-panel .mat-option:focus:hover
+{
+  background-color:#ff6000 !important;
+}
+.matSelectPerScrollHeight .perfectScroll_custom
+{
+  max-height: 160px;
+}
